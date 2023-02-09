@@ -1,0 +1,52 @@
+body {
+  background: linear-gradient(315deg, #ffffff, #d7e1ec);
+  margin: 5vh 10vw;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Chava';
+}
+
+#result {
+  text-align: right;
+  white-space: normal;
+  margin: 40px;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'TT Hoves';
+  background-color: #339999;
+  border: 3px solid black;
+  border-radius: 13px;
+  color: white;
+  transition: 0.7s;
+  word-wrap: break-word;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 40px;
+}
+
+#number {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'TT Hoves';
+  width: 300px;
+  margin: 0 20px;
+  border-radius: 12px;
+}
+
+button {
+  font-size: 16px;
+  font-family: 'TT Hoves';
+  border-radius: 12px;
+  transition: 0.7s;
+}
+
+button:hover {
+  background-color: #996699;
+  color: white;
+}
